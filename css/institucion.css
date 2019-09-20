@@ -1,0 +1,12 @@
+.cuerpo h3 {
+    font-size: 30px;
+}
+.cuerpo .contenedor {
+    justify-content: center;
+    padding-bottom: 25px;
+    margin-top: 60px;
+}
+
+#Institucion p {
+    text-align: left;
+}

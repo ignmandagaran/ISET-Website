@@ -1,0 +1,53 @@
+@import url(estilos.css);
+#banner .contenedor{
+    height: 130%;
+}
+
+footer .contenedor {
+    position: relative;
+    margin-top: 200px;
+}
+
+.contenedor p {
+    font-size: 19px;
+}
+
+.textarea {
+    width: 98%;
+    padding: 1px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 59px;
+}
+
+#enviar{
+    position: relative;
+    bottom: 60px;
+}
+
+#borrar{
+    position: relative;
+    bottom: 60px;
+}
+@media (min-width:360px) {
+    #banner .contenedor{
+    height: 110%;
+}
+    }
+
+@media (min-width:768px) {
+    #banner .contenedor{
+    height: 100%;
+}
+    .textarea {
+    width: 55%;
+    }
+}
+
+@media (min-width:1024px) {
+    .textarea {
+    width: 45%;
+    }
+    
+}
+

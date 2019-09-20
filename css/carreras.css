@@ -1,0 +1,20 @@
+#carreras {
+    text-align: center;
+}
+
+#carreras .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#carreras article {
+    margin: 15px;
+    
+}
+
+#carreras img {
+    width: 100%;
+    max-width: 280px;
+    border: 5px solid #333;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>ISET</title>
+        <link rel="shortcut icon" href="img/favicon.ico"> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="js/codigo.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/Banner.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        <script type="text/javascript" src="js/codigoprueba.js"></script>
+        
+    </head>
+       
+    <body>
+        <header>
+            <div class="contenedor">
+                <h1 class="icon-bank">ISET</h1>
+                  <input type="checkbox" id="menu-bar">
+                  <label class="icon-menu" for="menu-bar"></label>
+                         
+                          <nav class="menu">
+                           <a href="index.html" class="transicion">Inicio</a>
+                           <a href="Institucion.html" class="transicion">Institución</a>
+                           <a href="Carreras.html" class="transicion">Carreras</a>
+                           <a href="Contacto.html" class="transicion">Contacto</a>
+                          </nav>
+            </div>
+         </header>
+         
+         <main>
+            
+             <section id="banner">
+                <img src="img/Slider-01.jpg" alt="Logo escuela">
+                <div class="contenedor">
+                    <h2>Contacto</h2>
+                    <p>¡Comunicate con nosotros ante cualquier consulta!</p>
+                    <form method="post" action="mailto:ivanzurlis@gmail.com" name="MiFormulario" id="myForm">
+                    Nombre:&nbsp;&nbsp; <input maxlength="25" name="Nombre" type="text" id="clean"><br>
+                    Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input maxlength="25" name="Email" type="text" id="clean"><br>
+                    <p>Comentario:</p>
+                    <textarea cols="50" rows="12" name="Comentarios" class="textarea"></textarea>
+                    <input type="button" onclick="myFunction()" value="Enviar" id="enviar">
+                    <input type="button" onclick="myFunction()" value="Borrar todo" id="borrar">
+                    </form>
+                    
+                </div>
+             </section>
+         
+         </main>
+         
+         <footer>
+            <div class="contenedor">
+                <p class="pie">Mar del plata, Buenos Aires, Argentina - 2017</p>
+                <div class="social">
+                <a class="icon-facebook-rect" href="#"></a>
+                <a class="icon-email" href="#"></a>
+                </div>
+            </div>
+         </footer>
+    </body>
+</html>
